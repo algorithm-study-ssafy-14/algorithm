@@ -1,16 +1,25 @@
+## 📂 폴더 규칙
+- `solutions/연-월-weekN/사이트_번호_닉네임.확장자`
+- 예) `solutions/2025-08-week3/boj_1697_kim.py`
+
+## 🔀 브랜치 & PR
+- 브랜치: `feat/닉네임/boj_번호`
+- PR 제목: `[week3] BOJ 1697 - kim`
+- PR에 접근 아이디어/시간 복잡도 기입
+
 # Week 3 문제
 https://www.acmicpc.net/workbook/view/7314
 
-BOJ 11729
+BOJ 11729 하노이 탑 이동 순서
 
-BOJ 1074
+BOJ 1074 Z
 
-BOJ 2630
+BOJ 2630 색종이 만들기
 
-BOJ 1992
+BOJ 1992 쿼드트리
 
-BOJ 2447
+BOJ 2447 별 찍기 - 10
 
-BOJ 2448
+BOJ 2448 별 찍기 - 11
 
-BOJ 14956
+BOJ 14956 Philosopher’s Walk
