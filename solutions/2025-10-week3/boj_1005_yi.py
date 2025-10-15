@@ -8,6 +8,7 @@ for i in range(1, T + 1):
     indegree[0] = -1
     graph = [[] for _ in range(n + 1)]
     q = deque()
+    dp = [0] * (n + 1)
     res = []
 
     for _ in range(k):
@@ -20,14 +21,15 @@ for i in range(1, T + 1):
     for i in range(1, n  + 1):
         if indegree[i] == 0:
             q.append(i)
+            dp[i] = time[i-1]
 
     while q:
         now = q.popleft()
         res.append(now)
         for i in graph[now]:
+            dp[i] = max(dp[i], dp[now] + time[i-1])
             indegree[i] -= 1
             if indegree[i] == 0:
                 q.append(i)
 
-    for i in res:
-        print(i, sep=' ')
+    print(dp[w])
