@@ -1,3 +1,4 @@
+# 파핑파핑 지뢰찾기
 from collections import deque
 
 # 8방향(상,하,좌,우 + 대각선) 이동을 위한 방향 벡터
