@@ -45,7 +45,7 @@ for i in range(1, T + 1):
                     recur((nr, nc), C_cnt)
 
     recur(start, 0)
-=======
+#=======
 import sys
 sys.stdin = open('17130_rabbit_island.txt', 'r')
 input = sys.stdin.readline
